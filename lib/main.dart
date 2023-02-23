@@ -53,30 +53,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   dataController.generatedNumbers.toString(),
                   style: Theme.of(context).textTheme.headline5,
                 ),
-              Text(
-                ': : Show Message From Script : :',
-                style: Theme.of(context).textTheme.headline3,
-              ),
-              if (dataController.message.value != "")
-                Text(
-                  dataController.message.value,
-                  style: Theme.of(context).textTheme.headline5,
-                ),
-              MaterialButton(
-                color: Colors.purple,
-                onPressed: () => dataController.getMessage(),
-                padding: const EdgeInsets.all(18),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  "Generate Message",
-                  style: TextStyle(
-                    fontSize: Theme.of(context).textTheme.headline5!.fontSize,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
             ],
           ),
         ),

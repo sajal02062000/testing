@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   get: any
+  http: any
 
 dev_dependencies:
   flutter_test:
